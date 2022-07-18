@@ -3,20 +3,16 @@
     <div class="big_container">
         <div class="sx_links">
             <div>
-                <a href="#">Downoload App <span id="ios" >iOS</span></a>
+                <a href="#">Downoload App <span id="orangeElement" >iOS</span></a>
 
             </div>
             <a href="#">Advertise with us</a>
         </div>
         <div class="dx_socials">
-            <!-- <div><i class="fa-brands fa-facebook-f"></i></div>
+            <span><i class="fa-brands fa-facebook-f"></i></span>
             <span><i class="fa-brands fa-instagram"></i></span>
             <span><i class="fa-brands fa-twitter"></i></span>
-            <span><i class="fa-brands fa-youtube"></i></span> -->
-            <span>ico</span>
-            <span>ico</span>
-            <span>ico</span>
-            <span>ico</span>
+            <span><i class="fa-brands fa-youtube"></i></span>
         </div>
         
     </div>
@@ -52,8 +48,7 @@ header{
     align-content: center;
     font-size: 11px;
     
-
-    #ios{
+    #orangeElement{
         background-color: $orange_element;
         border-radius: 5px;
         padding: 3px 5px;
@@ -63,7 +58,12 @@ header{
 }
 
 .dx_socials{
-    color: black;
+    color: $grey_03;
+    font-size: 12px;
+    
+    span{
+        padding-right: 20px;
+    }
 }
 
 

@@ -5,10 +5,9 @@
         <ul>
             <li v-for="link, index in menuLinks" :key="index" 
                 :class="{ 'current': link.current }">
-
                 <a :href="link.url">{{ link.text }}</a>
-                    
             </li>
+            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
         </ul>
 
     </div>
@@ -52,11 +51,7 @@ export default {
                     url: '#',
                     current: false
                 },
-                {
-                    text: 'O',
-                    url: '#',
-                    current: false
-                },
+                
             ],
         };
     }
