@@ -9,10 +9,10 @@
             <a href="#">Advertise with us</a>
         </div>
         <div class="dx_socials">
-            <span><i class="fa-brands fa-facebook-f"></i></span>
-            <span><i class="fa-brands fa-instagram"></i></span>
-            <span><i class="fa-brands fa-twitter"></i></span>
-            <span><i class="fa-brands fa-youtube"></i></span>
+            <span><a href="#"><i class="fa-brands fa-facebook-f"></i></a></span>
+            <span><a href="#"><i class="fa-brands fa-instagram"></i></a></span>
+            <span><a href="#"><i class="fa-brands fa-twitter"></i></a></span>
+            <span><a href="#"><i class="fa-brands fa-youtube"></i></a></span>
         </div>
         
     </div>
@@ -34,13 +34,17 @@ header{
     height: 40px;
 
     a{
-        color: $grey_02;
+        color: $grey_03;
         padding-right: 10px;
     }
 }
 
 .big_container{
     height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .sx_links{
@@ -58,11 +62,15 @@ header{
 }
 
 .dx_socials{
-    color: $grey_03;
+    color: $grey_05_lightBack;
     font-size: 12px;
     
     span{
         padding-right: 20px;
+
+        a{
+            color: $grey_03;
+        }
     }
 }
 

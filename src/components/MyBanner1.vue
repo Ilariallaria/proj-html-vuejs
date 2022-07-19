@@ -5,7 +5,7 @@
     <div id="orangeElement">TODAY'S PICK</div>
 
     <div class="titles">
-      <h2>Food Corner: Top Japanese Resturant for Suchi</h2>
+      <h2>Food Corner: Top Japanese Resturant for Sushi</h2>
       <h4>March 25, 2019</h4>
     </div>
   </div>

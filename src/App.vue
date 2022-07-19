@@ -6,7 +6,8 @@
     </header>
 
     <main>
-      <MyBanner/>
+      <MyBanner1/>
+      <BaMainJournal/>
     </main>
 
 
@@ -16,14 +17,16 @@
 <script>
 import AaHeaderTop from './components/AaHeaderTop.vue'
 import AbHeaderBottom from './components/AbHeaderBottom.vue'
-import MyBanner from './components/MyBanner.vue'
+import MyBanner1 from './components/MyBanner1.vue'
+import BaMainJournal from './components/BaMainJournal.vue'
 
 export default {
   name: 'App',
   components: {
     AaHeaderTop,
     AbHeaderBottom,
-    MyBanner,
+    MyBanner1,
+    BaMainJournal,
   }
 }
 </script>
