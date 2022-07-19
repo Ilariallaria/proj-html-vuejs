@@ -11,6 +11,7 @@
       <BcSectionPopularRecipes/>
       <BdSectionCulinaryCollection/>
       <BeSectionFarm/>
+      <BfBanner2/>
     </main>
 
 
@@ -25,6 +26,7 @@ import BbSectionJournal from './components/BaMain/BbSectionJournal.vue'
 import BcSectionPopularRecipes from './components/BaMain/BcSectionPopularRecipes.vue'
 import BdSectionCulinaryCollection from './components/BaMain/BdSectionCulinaryCollection.vue'
 import BeSectionFarm from './components/BaMain/BeSectionFarm.vue'
+import BfBanner2 from './components/BaMain/BfBanner2.vue'
 
 export default {
   name: 'App',
@@ -36,6 +38,7 @@ export default {
     BcSectionPopularRecipes,
     BdSectionCulinaryCollection,
     BeSectionFarm,
+    BfBanner2,
   }
 }
 </script>

@@ -70,7 +70,7 @@ section{
   height: 300px;
   position: absolute;
   top: 610px;
-  left: 197px
+  left: 237px
 
 }
 

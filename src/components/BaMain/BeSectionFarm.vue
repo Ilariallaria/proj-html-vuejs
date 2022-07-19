@@ -1,5 +1,6 @@
 <template>
   <section class="my_section">
+    <!-- titolo section -->
     <div class="big_container flex">
       <div class="my_section-txt">
         <h2 class="section_title">farm to table</h2>
@@ -9,7 +10,9 @@
         <a href="#" class="btn my_btn">read our blog</a>
       </div>
     </div>
+    <!-- corpo section -->
     <div class="big_container flex">
+      <!-- colonna sx -->
       <div class="sx_col">
         <div class="my_card">
           <div class="my_cont-img">
@@ -81,9 +84,33 @@
           </div>
 
         </div>
+        <div class="btn more_post">
+          <a href="#">LOAD MORE POST</a>
+        </div>
+      </div>
+      <!-- colonna dx -->
+      <div class="dx_col">
+
+        <div class="leatest_recipes">
+          <img src="../../assets/ad-bg.jpg" alt="">
+          <h2>VIEW OUR <br> LEATES <br> RECIPES</h2>
+        </div>
+
+        <div class="city_guide">
+          <img src="../../assets/singapore-featured-image-400x263.jpg" alt="">
+          <div class="btn view_all">
+            <a href="#"><span><i class="fa-solid fa-earth-americas"></i></span> VIEW ALL CITY GUIDES</a>
+          </div>
+          <h2>City Guide: Singapore</h2>
+          <hr>
+        </div>
+                
+        <div class="input_cont flex">
+          <div><i class="fa-solid fa-magnifying-glass"></i></div>
+          <input class="my_input" type="text" placeholder ="Search...">
+        </div>
 
       </div>
-      <div class="dx_col">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum accusantium sit, recusandae error inventore iusto natus? Eum similique dignissimos commodi vitae laudantium nihil pariatur debitis accusamus, numquam nam dolore expedita!</div>
     </div>
 
   </section>
@@ -98,17 +125,18 @@ export default {
 <style scoped lang="scss">
 @import '../../style/variables';
 .my_section{
-    height: 2000px;
+    height: 1800px;
     background-color: $grey_05_lightBack;
 }
 .flex{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
+// colonna sx
 .sx_col{
   padding-top: 40px;
-  width: 60%;
+  width: 65%;
 }
 .my_card{
   background-color: white;
@@ -145,17 +173,111 @@ export default {
     }
   }
 }
-
 .single_card{
   margin-top: 30px;
   background-color: white;
   width: 47%;
   text-align: center;
 }
+.more_post{
+  width: 100%;
+  background-color: $grey_04_darkBack;
+  margin-top: 30px;
+  font-size: 11px;
+  padding: 10px 15px;
+  font-weight: bold;
+  text-align: center;
+  a{
+    color: $grey_01;
+  }
+}
 
-
+// colonna dx
 .dx_col{
   padding-top: 40px;
-  width: 36%;
+  width: 30%;
 }
+.leatest_recipes{
+  height: 320px;
+  position: relative;
+  img{
+    height: inherit;
+  }
+  h2{
+  text-align: center;
+  line-height: 25px;
+  font-size: 16px;
+  position: absolute;
+  top: 38%;
+  right: 35%;
+}
+}
+
+.city_guide{
+  margin-top: 40px;
+  position: relative;
+
+  .view_all{
+    width: 100%;
+    background-color: $orange_element;
+    font-size: 10px;
+    padding: 7px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0;
+    a{
+      color: white;
+      span{
+        padding-right: 3px;
+      }
+    }
+  }
+
+  h2{
+    font-size: 15px;
+    background-color: black;
+    opacity: (0.75);;
+    color: white;
+    width: 70%;
+    padding: 10px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+  }
+
+  hr{
+    margin: 30px 0;
+    color:$grey_03;
+  }
+}
+.input_cont{
+  padding: 5px;
+  height: 40px;
+  color:$grey_03;
+  border: 2px solid $grey_04_darkBack;
+  background-color: white;
+  border-radius: 5px;
+
+    
+  div{
+    padding: 10px 5px 5px 10px;
+    background-color: white;
+    font-size: 10px;
+    height: 100%;
+    width: 10%;
+  }
+  .my_input{
+  width: 90%;
+  height: 100%;
+  padding: 0 10px;
+  border: none;
+  font-size: 11px;
+  font-weight: bold;
+  color:$grey_03;
+  
+  }
+}
+
+
+
 </style>
