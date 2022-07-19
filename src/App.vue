@@ -6,8 +6,9 @@
     </header>
 
     <main>
-      <MyBanner1/>
-      <BaMainJournal/>
+      <BaBanner1/>
+      <BbSectionJournal/>
+      <BcSectionPopularRecipes/>
     </main>
 
 
@@ -15,22 +16,27 @@
 </template>
 
 <script>
-import AaHeaderTop from './components/AaHeaderTop.vue'
-import AbHeaderBottom from './components/AbHeaderBottom.vue'
-import MyBanner1 from './components/MyBanner1.vue'
-import BaMainJournal from './components/BaMainJournal.vue'
+import AaHeaderTop from './components/AaHeader/AaHeaderTop.vue'
+import AbHeaderBottom from './components/AaHeader/AbHeaderBottom.vue'
+import BaBanner1 from './components/BaMain/BaBanner1.vue'
+import BbSectionJournal from './components/BaMain/BbSectionJournal.vue'
+import BcSectionPopularRecipes from './components/BaMain/BcSectionPopularRecipes.vue'
 
 export default {
   name: 'App',
   components: {
     AaHeaderTop,
     AbHeaderBottom,
-    MyBanner1,
-    BaMainJournal,
+    BaBanner1,
+    BbSectionJournal,
+    BcSectionPopularRecipes,
   }
 }
 </script>
 
 <style lang="scss">
-@import './style/commons'
+@import './style/commons';
+
+
+
 </style>

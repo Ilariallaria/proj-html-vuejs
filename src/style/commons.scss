@@ -18,21 +18,17 @@ a{
     text-decoration: none;
 }
 
-main{
-    background-color: #f6f7f1;
-}
 // CONTAINER
 
 .big_container{
     width: 70%;
     margin: 0 auto;
-    // background-color: lightyellow;
+    // background-color: yellow;
 }
 
 .small_container{
     width: 40%;
     margin: 0 auto;
-    // background-color: lightgreen;
 }
 
 // SECTION TITLE/SUBTITLE
@@ -42,11 +38,21 @@ main{
     font-size: 16px;
     font-weight: 700;
     color: #6a6b6c;
-
 }
 
 .section_subtitle{
     font-size: 12px;
     color: #afafaf;
+
+}
+
+.my_btn{
+    color: white;
+    background-color: #fc7525;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 6px 15px;
+    border-radius: 0;
 
 }

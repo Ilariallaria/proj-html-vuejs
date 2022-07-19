@@ -1,6 +1,6 @@
 <template>
   <header>
-    <img src="../assets/avada-food-logo.png" alt="">
+    <img src="../../assets/avada-food-logo.png" alt="">
     <div class="small_container">
         <ul>
             <li v-for="link, index in menuLinks" :key="index" 
@@ -60,7 +60,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '../style/variables';
+@import '../../style/variables.scss';
 
 header{
     height: 150px;

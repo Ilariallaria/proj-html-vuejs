@@ -4,9 +4,8 @@
         <div class="sx_links">
             <div>
                 <a href="#">Downoload App <span id="orangeElement" >iOS</span></a>
-
             </div>
-            <a href="#">Advertise with us</a>
+            <a id="advertise" href="#">Advertise with us</a>
         </div>
         <div class="dx_socials">
             <span><a href="#"><i class="fa-brands fa-facebook-f"></i></a></span>
@@ -28,14 +27,13 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '../style/variables';
+@import '../../style/variables.scss';
 
 header{
     height: 40px;
 
     a{
         color: $grey_03;
-        padding-right: 10px;
     }
 }
 
@@ -59,6 +57,9 @@ header{
         color: white;
         font-size: 9px;
     }
+    #advertise{
+        padding-left: 10px;
+    }
 }
 
 .dx_socials{
@@ -66,7 +67,7 @@ header{
     font-size: 12px;
     
     span{
-        padding-right: 20px;
+        padding-left: 20px;
 
         a{
             color: $grey_03;

@@ -30,16 +30,16 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '../style/variables';
+@import '../../style/variables.scss';
 section{
   height: 480px;
-  background-image: url('../assets/single-post-img3-1200x790.jpg');
+  background-image: url('../../assets/single-post-img3-1200x790.jpg');
   background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  position: relative
+  position: relative;
 }
 .textBox{
   background-color: white;
