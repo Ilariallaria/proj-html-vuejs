@@ -24,6 +24,63 @@
             <span id="think"><i class="fa-regular fa-comments"></i>O</span>
           </div>
         </div>
+        <div class="all_cards flex">
+          <div class="single_card">
+            <div class="my_cont-img">
+              <img src="../../assets/fi-roundup-400x263.jpg" alt="Card image">
+            </div>
+            <div class="my_cont-body">
+              <div class="my_card-title">Lunch Favourite with Salad, naan And Beans</div>
+              <div class="my_card-subtitle">By Admin | 25 March 2019</div>
+            </div>
+          </div>
+          <div class="single_card">
+            <div class="my_cont-img">
+              <img src="../../assets/fi-korean-food-400x263.jpg" alt="Card image">
+            </div>
+            <div class="my_cont-body">
+              <div class="my_card-title">Lunch Favourite with Salad, naan And Beans</div>
+              <div class="my_card-subtitle">By Admin | 25 March 2019</div>
+            </div>
+          </div>
+          <div class="single_card">
+            <div class="my_cont-img">
+              <img src="../../assets/fi-toasts-400x263.jpg" alt="Card image">
+            </div>
+            <div class="my_cont-body">
+              <div class="my_card-title">Lunch Favourite with Salad, naan And Beans</div>
+              <div class="my_card-subtitle">By Admin | 25 March 2019</div>
+            </div>
+          </div>
+          <div class="single_card">
+            <div class="my_cont-img">
+              <img src="../../assets/fi-street-food-400x263.jpg" alt="Card image">
+            </div>
+            <div class="my_cont-body">
+              <div class="my_card-title">Lunch Favourite with Salad, naan And Beans</div>
+              <div class="my_card-subtitle">By Admin | 25 March 2019</div>
+            </div>
+          </div>
+          <div class="single_card">
+            <div class="my_cont-img">
+              <img src="../../assets/fi-organic-breakfast-1200x790.jpg" alt="Card image">
+            </div>
+            <div class="my_cont-body">
+              <div class="my_card-title">Lunch Favourite with Salad, naan And Beans</div>
+              <div class="my_card-subtitle">By Admin | 25 March 2019</div>
+            </div>
+          </div>
+          <div class="single_card">
+            <div class="my_cont-img">
+              <img src="../../assets/fi-water-side-rest-400x263.jpg" alt="Card image">
+            </div>
+            <div class="my_cont-body">
+              <div class="my_card-title">Lunch Favourite with Salad, naan And Beans</div>
+              <div class="my_card-subtitle">By Admin | 25 March 2019</div>
+            </div>
+          </div>
+
+        </div>
 
       </div>
       <div class="dx_col">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum accusantium sit, recusandae error inventore iusto natus? Eum similique dignissimos commodi vitae laudantium nihil pariatur debitis accusamus, numquam nam dolore expedita!</div>
@@ -41,12 +98,13 @@ export default {
 <style scoped lang="scss">
 @import '../../style/variables';
 .my_section{
-    height: 1000px;
+    height: 2000px;
     background-color: $grey_05_lightBack;
 }
 .flex{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .sx_col{
   padding-top: 40px;
@@ -87,6 +145,14 @@ export default {
     }
   }
 }
+
+.single_card{
+  margin-top: 30px;
+  background-color: white;
+  width: 47%;
+  text-align: center;
+}
+
 
 .dx_col{
   padding-top: 40px;
