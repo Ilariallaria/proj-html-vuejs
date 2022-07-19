@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="my_section">
         <div class="big_container">
             <div class="my_section-txt">
                 <h2 class="section_title">popular recipes</h2>
@@ -28,24 +28,24 @@
                                 <img class="little_img" src="../../assets/Mixed-fruits-200x132.jpg" alt="Card image">
                             </div>
                             <div class="col">
-                                <img class="little_img" src="../../assets/Mixed-fruits-200x132.jpg" alt="Card image">
+                                <img class="little_img" src="../../assets/r-rachel-park-366508-unsplash-min-200x132.jpg" alt="Card image">
                             </div>
                             <div class="col">
-                                <img class="little_img" src="../../assets/Mixed-fruits-200x132.jpg" alt="Card image">
+                                <img class="little_img" src="../../assets/r-michelle-tsang-500721-unsplash-min-200x132.jpg" alt="Card image">
                             </div>
                             <div class="col">
-                                <img class="little_img" src="../../assets/Mixed-fruits-200x132.jpg" alt="Card image">
+                                <img class="little_img" src="../../assets/quick-summer-drink-460x295.jpg" alt="Card image">
                             </div>
                             <div class="col">
-                                <img class="little_img" src="../../assets/Mixed-fruits-200x132.jpg" alt="Card image">
+                                <img class="little_img" src="../../assets/r-maarten-van-den-heuvel-400626-unsplash-min-460x295.jpg" alt="Card image">
                             </div>
                             <div class="col">
-                                <img class="little_img" src="../../assets/Mixed-fruits-200x132.jpg" alt="Card image">
+                                <img class="little_img" src="../../assets/perfect-cosmopolitan-460x295.jpg" alt="Card image">
                             </div><div class="col">
-                                <img class="little_img" src="../../assets/Mixed-fruits-200x132.jpg" alt="Card image">
+                                <img class="little_img" src="../../assets/fi2x-6-460x295.jpg" alt="Card image">
                             </div>
                             <div class="col">
-                                <img class="little_img" src="../../assets/Mixed-fruits-200x132.jpg" alt="Card image">
+                                <img class="little_img" src="../../assets/r-brooke-lark-96398-unsplash-min-460x295.jpg" alt="Card image">
                             </div>
 
 
@@ -69,12 +69,12 @@ export default {
 
 <style scoped lang="scss">
 @import '../../style/variables';
-section{
+.my_section{
     height: 1000px;
-    background-color: #f6f7f1;
+    background-color: $grey_05_lightBack;
 }
 .my_section-txt{
-    padding-top: 300px;
+    padding-top: 320px;
     padding-bottom: 50px;
     text-align: center;
 }

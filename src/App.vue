@@ -9,6 +9,8 @@
       <BaBanner1/>
       <BbSectionJournal/>
       <BcSectionPopularRecipes/>
+      <BdSectionCulinaryCollection/>
+      <BeSectionFarm/>
     </main>
 
 
@@ -21,6 +23,8 @@ import AbHeaderBottom from './components/AaHeader/AbHeaderBottom.vue'
 import BaBanner1 from './components/BaMain/BaBanner1.vue'
 import BbSectionJournal from './components/BaMain/BbSectionJournal.vue'
 import BcSectionPopularRecipes from './components/BaMain/BcSectionPopularRecipes.vue'
+import BdSectionCulinaryCollection from './components/BaMain/BdSectionCulinaryCollection.vue'
+import BeSectionFarm from './components/BaMain/BeSectionFarm.vue'
 
 export default {
   name: 'App',
@@ -30,6 +34,8 @@ export default {
     BaBanner1,
     BbSectionJournal,
     BcSectionPopularRecipes,
+    BdSectionCulinaryCollection,
+    BeSectionFarm,
   }
 }
 </script>
