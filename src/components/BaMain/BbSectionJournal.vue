@@ -107,9 +107,14 @@ padding: 20px 0;
 .my_card{
   height: inherit;
   width: inherit;
+  position: relative;
 }
 .my_cont-img{
   height: 60%;
+  &:hover{
+    opacity: (0.7);
+  }
+  
 }
 
 .my_cont-body{

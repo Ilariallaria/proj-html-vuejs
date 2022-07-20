@@ -2,22 +2,32 @@
   <header>
     <img src="../../assets/avada-food-logo.png" alt="">
     <div class="small_container">
-        <ul>
+        <div class="navBar">
+           
+        <MyNav v-for="element, index in menuLinks" :key="index" :liDetails="element" />
+        
+        </div>
+
+        <!-- <ul>
             <li v-for="link, index in menuLinks" :key="index" 
                 :class="{ 'current': link.current }">
                 <a :href="link.url">{{ link.text }}</a>
             </li>
             <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-        </ul>
-
+        </ul> -->
     </div>
+    
 
 
   </header>
 </template>
 
 <script>
+import MyNav from './MyNav.vue'
 export default {
+    components:{
+        MyNav,
+    },
   data() {
         return {
             menuLinks: [
@@ -74,7 +84,7 @@ img{
 
 .small_container{
     height: 45px;
-    ul{
+    .navBar{
         height: 100%;
         display: flex;
         justify-content: space-between;

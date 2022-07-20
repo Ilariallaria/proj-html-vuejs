@@ -58,6 +58,7 @@ section{
   top: -8%;
   left: 40%;
   box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+  
 }
 .titles{
   text-align: center;
