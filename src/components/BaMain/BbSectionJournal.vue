@@ -84,7 +84,7 @@ padding: 20px 0;
   display: flex;
   justify-content: space-between;
   .title-hr{
-    width: 40%;
+    width: 35%;
     background-color: $grey_04_darkBack;
     height: 1.5px;
     align-self: center;
@@ -105,28 +105,27 @@ padding: 20px 0;
 }
 
 .my_card{
-    height: inherit;
-    width: inherit;
+  height: inherit;
+  width: inherit;
 }
 .my_cont-img{
-    height: 60%;
-    // width: 100%;
+  height: 60%;
 }
 
 .my_cont-body{
-    height: 40%;
-    text-align: center;
+  height: 40%;
+  text-align: center;
 
-    .my_card-title{
-        color: $grey_01;
-        font-size: 14px;
-        font-weight: 700;
-        padding: 0 20px;
-    }
-    .my_card-subtitle{
-        color: $grey_02;
-        font-size: 12px;
-    }
+  .my_card-title{
+    color: $grey_01;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 20px;
+  }
+  .my_card-subtitle{
+    color: $grey_02;
+    font-size: 12px;
+  }
 
 }
 

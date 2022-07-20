@@ -12,7 +12,12 @@
       <BdSectionCulinaryCollection/>
       <BeSectionFarm/>
       <BfBanner2/>
+      <BgSectionGallery/>
     </main>
+
+    <footer>
+      <CaFooterTop/>
+    </footer>
 
 
   </div>
@@ -27,6 +32,8 @@ import BcSectionPopularRecipes from './components/BaMain/BcSectionPopularRecipes
 import BdSectionCulinaryCollection from './components/BaMain/BdSectionCulinaryCollection.vue'
 import BeSectionFarm from './components/BaMain/BeSectionFarm.vue'
 import BfBanner2 from './components/BaMain/BfBanner2.vue'
+import BgSectionGallery from './components/BaMain/BgSectionGallery.vue'
+import CaFooterTop from './components/CaFooter/CaFooterTop.vue'
 
 export default {
   name: 'App',
@@ -39,6 +46,8 @@ export default {
     BdSectionCulinaryCollection,
     BeSectionFarm,
     BfBanner2,
+    BgSectionGallery,
+    CaFooterTop,
   }
 }
 </script>

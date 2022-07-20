@@ -2,7 +2,7 @@
     <section class="my_section">
         <div class="small_container textBox">
             <div class="titles">
-                <h2>Subscribe R receive a free ebook</h2>
+                <h2>Subscribe <span>And</span> Receive a Free eBook</h2>
                 <h4>Lorem ipsum dolor quevit dunche norit perse vacum, lorem ipsum dolor quevit dunche ipsum dolor quevit dunche norit perse vacum</h4>
             </div>
 
@@ -43,6 +43,10 @@ export default {
     font-size: 25px;
     color:$grey_01;
     padding-top:35px
+
+  }
+  span{
+    color: $orange_element;
   }
   h4{
     font-size:13px;
@@ -84,10 +88,4 @@ export default {
     font-size: 9px;
     text-align: center;
 }
-
-
-
-
-
-
 </style>
